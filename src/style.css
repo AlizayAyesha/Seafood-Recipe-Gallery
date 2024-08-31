@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.card img {
+    width: 50%; /* Full width image */
+    height: 70%; /* Adjust height for better visual ratio */
+    object-fit: cover; /* Cover the card area without distortion */
+       transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.card img:hover {
+    transform: scale(0.5.05); /* Slightly zoom image on hover */
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.8); /* Add glowing effect */
+    border: 3px solid rgba(255, 215, 0, 0.8); /* Add a border with glowing color */
+}
+
+.card-content h2 {
+    font-size: 1.2rem; /* Font size for meal name */
+    margin: 0 0 10px; /* Space below the heading */
+    color: #444; /* Darker text for headings */
+}
+
+.card-content p {
+    margin-bottom: 100px;
+    font-weight: 600; /* Bold ID */
+    color: #ffffff; /* Lighter color for ID */
+}
+p {
+    margin-bottom: 100px;
+    margin-top: 50px;
+    font-size: 1.2rem;
+}
